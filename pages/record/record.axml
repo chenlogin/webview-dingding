@@ -1,0 +1,12 @@
+<view class="title" onTap="changeName">{{name}}</view>
+
+<view style="width: 100%;height: 40px;line-height: 40px;text-align: center;" onTouchStart="recordStart" onTouchEnd="recordEnd" onTouchCancel="recordCancel">录音</view>
+<button onTap="playAudio">播放音频</button>
+<view a:for="{{recordAudioArr}}" a:for-index="idx" a:for-item="item">
+    <view>{{item}}</view>
+</view>
+
+<button type="primary" onTap="jumpTo">跳转新页面</button>
+
+<my-component></my-component>
+

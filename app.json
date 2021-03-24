@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/record/record",
+    "pages/index/index",
+    "pages/landscape/landscape"
+  ],
+  "window": {
+    "defaultTitle": "Demo",
+    "allowsBounceVertical": "NO",
+    "pullRefresh": false
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/record/record",
+        "name": "录音"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      }
+    ]
+  }
+}

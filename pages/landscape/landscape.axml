@@ -1,0 +1,7 @@
+<view>
+小程序不支持横屏设置，微应用页面支持横屏:
+<view>url后拼接参数dd_orientation=landscape</view>
+<view>Android端打开新页面时推荐使用openLink</view>
+</view>
+
+

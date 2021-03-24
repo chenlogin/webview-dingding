@@ -1,0 +1,3 @@
+<view onTap="onMyClick">
+  New Component
+</view>
